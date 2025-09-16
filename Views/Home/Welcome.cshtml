@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.Message</h1>
+    <p class="lead">This is a sample ASP.NET Core application with a welcome page.</p>
+    <hr />
+    
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Welcome to ASP.NET Core!</h5>
+                    <p class="card-text">
+                        This is a simple welcome page created with ASP.NET Core MVC. 
+                        The application demonstrates basic routing, controllers, and views.
+                    </p>
+                    <p class="card-text">
+                        <small class="text-muted">Current time: @ViewBag.CurrentTime</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mt-4">
+        <h3>Features demonstrated:</h3>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">✅ ASP.NET Core MVC</li>
+            <li class="list-group-item">✅ Controller and Action</li>
+            <li class="list-group-item">✅ Razor Views</li>
+            <li class="list-group-item">✅ Bootstrap styling</li>
+            <li class="list-group-item">✅ ViewBag data passing</li>
+        </ul>
+    </div>
+</div>
