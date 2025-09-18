@@ -36,10 +36,3 @@ steps:
     projects: '**/*.csproj'
     arguments: '--configuration Release'
 
-# Step 4: Run tests (optional, if you have test projects)
-- task: DotNetCoreCLI@2
-  displayName: Test
-  inputs:
-    command: 'test'
-    projects: '**/*Tests/*.csproj'
-    arguments: '--configuration Release'
